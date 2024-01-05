@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta tags for character set and viewport -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Title of the website -->
+        <title>MadaBoutique website</title>
+        <!-- Link to external CSS stylesheets -->
+        <link rel="stylesheet" text="text/css" href="css/style.css">
+        <!-- Link to Font Awesome icons stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Link to W3.CSS stylesheet -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+         <!-- Link to Remixicon icons stylesheet -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+
+        <style>
+          .mySlides {display:none}
+          .w3-left, .w3-right, .w3-badge {cursor:pointer}
+          .w3-badge {height:13px;width:13px;padding:0}
+          </style>
+    </head>
+    <body>
+        <!-- header section -->
+        <header>
+          <!-- Logo -->
+            <div class="logo" >
+                <img src="image/logoM.png" alt="No-logo" class="w3-img w3-mobile w3-animate-right">
+            </div>
+
+            <!-- Navigation Bar -->
+            <div class="w3-bar w3-teal w3-mobile">
+              <!-- Navigation links -->
+                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home w3-margin-right"></i> Home</a>
+                <a href="#services" class="w3-bar-item w3-button w3-hide-small">Services</a>
+                <a href="#products" class="w3-bar-item w3-button w3-hide-small">Products</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact</a>
+                  <!-- Mobile menu button -->
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+            </div>
+
+             <!-- Mobile menu content -->
+            <div id="demo" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-mobile">
+                <a href="#services" class="w3-bar-item w3-button">Services</a>
+                <a href="#products" class="w3-bar-item w3-button">Products</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </header>
+
+        <!-- Auto Slide section -->
+
+        <div class="slides">
+            <div class="w3-center w3-padding-64">
+                <span class="w3-xlarge w3-border-dark-grey w3-padding-16">Exclusive collection for everyone</span>
+              </div>
+
+            <div class="slide w3-content w3-section w3-mobile w3-img">
+                <img class="mySlides" src="image/t1.png">
+                <img class="mySlides" src="image/t2.png">
+                <img class="mySlides" src="image/t3.png">
+                <img class="mySlides" src="image/A2.png"> 
+                <img class="mySlides" src="image/A8.png">
+
+                <img class="mySlides" src="image/A13.png">
+                <img class="mySlides" src="image/D16.png">
+                <img class="mySlides" src="image/D11.png">
+                <img class="mySlides" src="image/E2.png"> 
+                <img class="mySlides" src="image/E1.png">
+
+                <img class="mySlides" src="image/B4.png">
+                <img class="mySlides" src="image/C1.png">
+                <img class="mySlides" src="image/C17.png">
+                <img class="mySlides" src="image/O2.png"> 
+                <img class="mySlides" src="image/O8.png">
+
+                <img class="mySlides" src="image/S2.png">
+                <img class="mySlides" src="image/S6.png">
+                <img class="mySlides" src="image/F3.png">
+                <img class="mySlides" src="image/H1.png"> 
+                <img class="mySlides" src="image/H6.png">
+
+                <img class="mySlides" src="image/I9.png">
+                <img class="mySlides" src="image/I17.png">
+                <img class="mySlides" src="image/M1.png">
+                <img class="mySlides" src="image/M4.png"> 
+                <img class="mySlides" src="image/J1.png">
+
+                <img class="mySlides" src="image/K7.png">
+                <img class="mySlides" src="image/K3.png">
+                <img class="mySlides" src="image/L6.png">
+                <img class="mySlides" src="image/L4.png"> 
+                <img class="mySlides" src="image/M2.png">
+
+                <img class="mySlides" src="image/M4.png">
+                <img class="mySlides" src="image/G1.png">
+                <img class="mySlides" src="image/G9.png">
+                <img class="mySlides" src="image/P1.png">
+                <img class="mySlides" src="image/P3.png">
+
+                <img class="mySlides" src="image/Q1.png">
+                <img class="mySlides" src="image/Q5.png">
+                <img class="mySlides" src="image/R1.png">
+                <img class="mySlides" src="image/R5.png"> 
+                <img class="mySlides" src="image/U1.png">
+
+                <img class="mySlides" src="image/U5.png">
+
+            </div>
+        </div>
+
+        <!-- Services -->
+
+         <!-- Grid for services -->
+  <div class="w3-row w3-container w3-mobile" id="services">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
+    </div>
+    
+      <p class="w3-center"><span class="w3-xlarge w3-border-grey w3-padding-16">Our items from Johannesburg and Durban are fashionable,affordable and available!</span></p>
+    
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h1><i class="fa fa-shopping-cart"></i> Selling items</h1>
+      <ul>
+        <li>We sell new clothes and take orders of clothes from the age of 9-10 years.</li>
+        <li>We sell new shoes from size 3 to 8.</li>
+        <li>We sell suits.</li>
+        <li>We sell bags.</li>
+        <li>We sell hats.</li>
+        <li>We sell watches.</li>
+        <li>We sell second hand branded shoes from size 3 to 8.</li>
+        <li>We sell furniture.</li>
+      </ul>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h1><i class="fa fa-shopping-bag"></i> We take orders</h1>
+      <ul>
+        <li>We take orders of items like clothes,shoes and furniture with a <span class="w3-text-red w3-xlarge">deposit of 50% and settle the balance when you receive your order.</li>
+        <li>Remember that you have every right to send us the details of items you want, and ours is to look or buy for you.</li>
+        <li>Please note that we buy you these items at their <span class="w3-text-red w3-xlarge">original prices</span> and yours is simply pay us <span class="w3-text-red w3-xlarge">runner fee.</span> </li>
+      </ul>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h1><i class="fa fa-truck"></i> We deliver items</h1>
+      <ul>
+        <li>We deliver the ordered items around Maseru to our customers.</li>        
+      </ul>
+    </div>
+    <div class="w3-col l3 m6 w3-light-green w3-container w3-padding-16">
+      <h1><i class="fa fa-map-marker"></i> Where to find us</h1>
+      <ul>
+        <li>We are located at Maseru Lesotho</li>
+        <li>Opposite Puma filling station</li>
+        <img src="image/us.png" alt="No-img" class="w3-image">
+      </ul>
+    </div>
+  </div>
+
+        <!-- Grid -->
+
+        <!-- Price List Section -->
+  <div class="w3-center w3-padding-64">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Runner Fee Price List</span>
+  </div>
+
+  <!-- Table for price list -->
+  <table class="w3-table-all w3-centered w3-hoverable w3-mobile">
+    <tr class="w3-red">
+      <th>Amount Range</th>
+      <th>Amount Charged</th>
+    </tr>
+    <tr>
+      <td>M0 - M250</td>
+      <td>M120</td>
+    </tr>
+    <tr>
+        <td>M251 - M500</td>
+        <td>M250</td>
+      </tr>
+      <tr>
+        <td>M501 - M1000</td>
+        <td>M300</td>
+      </tr>
+      <tr>
+        <td>M1001 - M1500</td>
+        <td>M400</td>
+      </tr>
+      <tr>
+        <td>M1501 - M2000</td>
+        <td>M500</td>
+      </tr>
+    </table>
+
+        <!-- Products section -->
+
+        <!-- Product showcase section -->
+        <section class="product w3-mobile w3-black" id="products">
+            <div class="middle-text w3-center">
+                <div class="w3-center w3-padding-64">
+                    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Our Products</span>
+                  </div>
+                <p class="w3-opacity w3-center"><i>Remember to order your favourates!</i></p><br>
+                
+            </div>
+            <div class="w3-mobile product-content">
+              <div class="box">
+                <div class="box-img w3-img">
+                    <img src="image/A2.png" alt="No-img">
+                </div>
+                <h3>Couples outfits</h3>
+                <h4>Different designs</h4>
+                <div class="inbox">
+                    <div >
+                        <a href="#" class="price">Prices negotiable</a>
+                    </div>
+                    <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product1.html"><span class="moreItems">See More Items</span></a></div>
+                </div>
+            </div>
+
+                <div class="box">
+                  <div class="box-img w3-img">
+                      <img src="image/D16.png" alt="No-img">
+                  </div>
+                  <h3>Ladies Dresses</h3>
+                  <h4>Different designs</h4>
+                  <div class="inbox">
+                      <div >
+                          <a href="#" class="price">M100 - M400</a>
+                      </div>
+                      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product2.html">See More Items</a></div>
+                  </div>
+              </div>
+
+                <div class="box">
+                    <div class="box-img w3-img">
+                        <img src="image/E2.png" alt="No-img">
+                    </div>
+                    <h3>Ladies Dresses</h3>
+                    <h4>Different designs</h4>
+                    <div class="inbox">
+                        <div >
+                            <a href="#" class="price">M200</a>
+                        </div>
+                        <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product3.html">See More Items</a></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                  <div class="box-img w3-img">
+                      <img src="image/B4.png" alt="No-img">
+                  </div>
+                  <h3>Ladies Dresses</h3>
+                  <h4>Different designs</h4>
+                  <div class="inbox">
+                      <div >
+                          <a href="#" class="price">M350</a>
+                      </div>
+
+                      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product4.html">See More Items</a></div>
+                  </div>
+              </div>
+
+              <div class="box">
+                <div class="box-img w3-img">
+                    <img src="image/C1.png" alt="No-img">
+                </div>
+                <h3>Ladies Heels</h3>
+                <h4>Different designs</h4>
+                <div class="inbox">
+                    <div >
+                        <a href="#" class="price">M400</a>
+                    </div>
+
+                    <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product5.html">See More Items</a></div>
+                </div>
+            </div>
+
+            <div class="box">
+              <div class="box-img w3-img">
+                  <img src="image/O2.png" alt="No-img">
+              </div>
+              <h3>Ladies Sandlers</h3>
+              <h4>Different designs</h4>
+              <div class="inbox">
+                  <div >
+                      <a href="#" class="price">M80 - M350</a>
+                  </div>
+
+                  <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product6.html">See More Items</a></div>
+              </div>
+          </div>
+
+          <div class="box">
+            <div class="box-img w3-img">
+                <img src="image/S2.png" alt="No-img">
+            </div>
+            <h3>Ladies Sleeveless Suit 2PC</h3>
+            <h4>Different designs</h4>
+            <div class="inbox">
+                <div >
+                    <a href="#" class="price">M500</a>
+                </div>
+
+                <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product7.html">See More Items</a></div>
+            </div>
+        </div>
+
+        <div class="box">
+          <div class="box-img w3-img">
+              <img src="image/F3.png" alt="No-img">
+          </div>
+          <h3>Ladies Suit 2PC</h3>
+          <h4>Different designs</h4>
+          <div class="inbox">
+              <div >
+                  <a href="#" class="price">M550</a>
+              </div>
+
+              <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product8.html">See More Items</a></div>
+          </div>
+      </div>
+
+      <div class="box">
+        <div class="box-img w3-img">
+            <img src="image/H1.png" alt="No-img">
+        </div>
+        <h3>Men Formal Shoes</h3>
+        <h4>Different designs</h4>
+        <div class="inbox">
+            <div >
+                <a href="#" class="price">M1300</a>
+            </div>
+
+            <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product9.html">See More Items</a></div>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="box-img w3-img">
+          <img src="image/I9.png" alt="No-img">
+      </div>
+      <h3>Men Formal Shoes</h3>
+      <h4>Different designs</h4>
+      <div class="inbox">
+          <div >
+              <a href="#" class="price">M1000</a>
+          </div>
+
+          <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product10.html">See More Items</a></div>
+      </div>
+  </div>
+
+  <div class="box">
+    <div class="box-img w3-img">
+        <img src="image/M1.png" alt="No-img">
+    </div>
+    <h3>Men Jeans and Cargo Pans</h3>
+    <h4>Different designs</h4>
+    <div class="inbox">
+        <div >
+            <a href="#" class="price">M250</a>
+        </div>
+
+        <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product11.html">See More Items</a></div>
+    </div>
+</div>
+
+<div class="box">
+  <div class="box-img w3-img">
+      <img src="image/J1.png" alt="No-img">
+  </div>
+  <h3>Men Plain Suit 2PC</h3>
+  <h4>Different designs</h4>
+  <div class="inbox">
+      <div >
+          <a href="#" class="price">M1100</a>
+      </div>
+
+      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product12.html">See More Items</a></div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="box-img w3-img">
+      <img src="image/K7.png" alt="No-img">
+  </div>
+  <h3>Men Plain Suit 3PC</h3>
+  <h4>Different designs</h4>
+  <div class="inbox">
+      <div >
+          <a href="#" class="price">M1300</a>
+      </div>
+
+      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product13.html">See More Items</a></div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="box-img w3-img">
+      <img src="image/L6.png" alt="No-img">
+  </div>
+  <h3>Men Scorch Suit 3PC</h3>
+  <h4>Different designs</h4>
+  <div class="inbox">
+      <div >
+          <a href="#" class="price">M1400</a>
+      </div>
+
+      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product14.html">See More Items</a></div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="box-img w3-img">
+      <img src="image/N2.png" alt="No-img">
+  </div>
+  <h3>Men T-Shirt and Round Neck</h3>
+  <h4>Different designs</h4>
+  <div class="inbox">
+      <div >
+          <a href="#" class="price">M250 and M200</a>
+      </div>
+
+      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product15.html">See More Items</a></div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="box-img w3-img">
+      <img src="image/G9.png" alt="No-img">
+  </div>
+  <h3>Second Hand Branded Grade A Shoes and platform shoes</h3>
+  <h4>Different designs</h4>
+  <div class="inbox">
+      <div >
+          <a href="#" class="price">M450 and M550 </a>
+      </div>
+
+      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product16.html">See More Items</a></div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="box-img w3-img">
+      <img src="image/P1.png" alt="No-img">
+  </div>
+  <h3>School Bags of High Quality Originals</h3>
+  <h4>Different designs</h4>
+  <div class="inbox">
+      <div >
+          <a href="#" class="price">M250</a>
+      </div>
+
+      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product17.html">See More Items</a></div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="box-img w3-img">
+      <img src="image/Q1.png" alt="No-img">
+  </div>
+  <h3>Side Bags</h3>
+  <h4>Different designs</h4>
+  <div class="inbox">
+      <div >
+          <a href="#" class="price">M80 - M200</a>
+      </div>
+
+      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product18.html">See More Items</a></div>
+  </div>
+</div>
+             
+<div class="box">
+  <div class="box-img w3-img">
+      <img src="image/R1.png" alt="No-img">
+  </div>
+  <h3>Stylish Caps</h3>
+  <h4>Different designs</h4>
+  <div class="inbox">
+      <div >
+          <a href="#" class="price">M120 - M250</a>
+      </div>
+
+      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product19.html">See More Items</a></div>
+  </div>
+</div>
+
+<div class="box">
+  <div class="box-img w3-img">
+      <img src="image/U1.png" alt="No-img">
+  </div>
+  <h3>Watches</h3>
+  <h4>Different designs</h4>
+  <div class="inbox">
+      <div >
+          <a href="#" class="price">M50</a>
+      </div>
+
+      <div class="w3-center w3-button" style="display: inline-block;justify-content:center;"><a href="product20.html">See More Items</a></div>
+  </div>
+</div>
+
+            </div>
+        </section> 
+
+              <!-- Contact Section -->
+              <div class="w3-row w3-container w3-mobile" id="contact">
+                <div class="w3-center w3-padding-64">
+                  <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+                </div>
+                <div class="contactlist w3-mobile w3-col l3 m6  w3-padding-16 w3-card-4" style="width:100%;height: auto;">
+                  <ul style="list-style: none;">
+                    <li ><i id="phone" class="fa fa-phone w3-padding"><span class="w3-text-black"> +(266) 57158190</span></i> 
+                    <li><i id="email" class="fa fa-envelope w3-padding"><span class="w3-text-black"> madaattire5@gmail.com</span></i></li>
+                    <li> <i id="whatsapp" class="fa fa-whatsapp w3-padding"><span class="w3-text-black"> +(266) 62658478</span></i></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61551841139296" target="_blank" style="text-decoration: none;" ><i id="facebook" class="fa fa-facebook w3-padding "></i><span class="businesspage w3-hover-text" title="Visit us on facebook ">Mada Attire Empire & Flea Market</span></a></li>
+                  </ul>
+                  
+                </div>
+              </div>
+
+               <!-- JavaScript file -->
+        <script src="js/script.js"></script>
+
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function currentDiv(n) {
+            showDivs(slideIndex = n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " w3-white";
+          }
+          </script>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="w3-panel w3-center w3-light-grey">
+                <div>
+                    <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+                </div>
+                <!-- Copyright information -->
+                <p>&copy; 2023 Mada Attire Empire & Flea Market</p>
+            </div>
+        </footer>
+    </body>
+</html>
